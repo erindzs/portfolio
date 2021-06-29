@@ -24,7 +24,6 @@
 </div>
 
 <div class="contact-section">
-  
   <h1>Contact</h1>
   <div class="border"></div>
   <form class="contact-form" action="ContactMe.php" method="post">
@@ -35,20 +34,6 @@
   </form>
 </div>
 
-
-<!--
-   <div class="contact">
-     <h2>Contact</h2>
-      <form action="">
-        <input type="text" id="name"  placeholder="Enter Name">
-        <input type="email"id="email" placeholder="Enter Email">
-        <textarea name="field" cols="30" rows="10" placeholder="Type your message"></textarea>
-        <input type="submit" value="Send">
-      </form>
-
-   </div>
--->
-
 <div class="footer">
     <div class="footer1">
       <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
@@ -58,10 +43,7 @@
     </div>
     <div class=footer2>
         &copy; Edijs Rindžs
-      </div>
-      
+      </div> 
 </div>  
-
-
     </body>
 </html>
