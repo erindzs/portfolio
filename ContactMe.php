@@ -8,9 +8,7 @@
     <title>Portfolio</title>
 </head>
 
-<div class="header">
-  <h1>Portfolio</h1>
-</div>
+
 
 <body>
 <div class="container">
