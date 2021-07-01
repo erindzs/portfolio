@@ -48,16 +48,15 @@
 
 <div class="footer">
     <div class="footer1">
-      <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
-      <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
-      <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
-      <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+      <a class="icon" href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
+      <a class="icon" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/github.svg" alt="github"></a>
     </div>
     <div class=footer2>
         &copy; Edijs Rindžs
-    </div>  
+      </div>
 </div>  
-
 
     </body>
 </html>

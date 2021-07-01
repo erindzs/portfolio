@@ -13,15 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
   </head>
 <body>
-<div class=bg>
+
 <div class="indexcontainer">
   <div class="fronttext">
-    <h1>Welcome</h1>
     <a class="btnindex" href="AboutMe.php">ENTER</a>
   </div>
-
-
-</div>
 </div>
 
 </body>

@@ -44,36 +44,7 @@
       efficitur id est nec faucibus. Fusce tincidunt ex quis sem impe
       rdiet, sagittis semper purus luctus. Aliquam dignissim rhoncus
       elit et tincidunt. Ut sollicitudin lacinia nisl, rhoncus iac
-      ulis leo pellentesque a. Pellentesque faucibus odio magnaelit. Morbi commodo elit leo, vel pharetra diam vestibulum in.
-      Nunc tempus commodo tincidunt. Maecenas turpis elit, tincidunt
-      vel sodales ac, pretium nec lorem. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Quisque
-      efficitur id est nec faucibus. Fusce tincidunt ex quis sem impe
-      rdiet, sagittis semper purus luctus. Aliquam dignissim rhoncus
-      elit et tincidunt. Ut sollicitudin lacinia nisl, rhoncus iac
-      ulis leo pellentesque a. Pellentesque faucibus odio magna
-      elit. Morbi commodo elit leo, vel pharetra diam vestibulum in.
-      Nunc tempus commodo tincidunt. Maecenas turpis elit, tincidunt
-      vel sodales ac, pretium nec lorem. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Quisque
-      efficitur id est nec faucibus. Fusce tincidunt ex quis sem impe
-      rdiet, sagittis semper purus luctus. Aliquam dignissim rhoncus
-      elit et tincidunt. Ut sollicitudin lacinia nisl, rhoncus iac
-      ulis leo pellentesque a. Pellentesque faucibus odio magnaelit. Morbi commodo elit leo, vel pharetra diam vestibulum in.
-      Nunc tempus commodo tincidunt. Maecenas turpis elit, tincidunt
-      vel sodales ac, pretium nec lorem. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Quisque
-      efficitur id est nec faucibus. Fusce tincidunt ex quis sem impe
-      rdiet, sagittis semper purus luctus. Aliquam dignissim rhoncus
-      elit et tincidunt. Ut sollicitudin lacinia nisl, rhoncus iac
-      ulis leo pellentesque a. Pellentesque faucibus odio magnaelit. Morbi commodo elit leo, vel pharetra diam vestibulum in.
-      Nunc tempus commodo tincidunt. Maecenas turpis elit, tincidunt
-      vel sodales ac, pretium nec lorem. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Quisque
-      efficitur id est nec faucibus. Fusce tincidunt ex quis sem impe
-      rdiet, sagittis semper purus luctus. Aliquam dignissim rhoncus
-      elit et tincidunt. Ut sollicitudin lacinia nisl, rhoncus iac
-      ulis leo pellentesque a. Pellentesque faucibus odio magna
+      
     </p>
     </div>
   </div>
@@ -82,15 +53,14 @@
 
 <div class="footer">
     <div class="footer1">
-      <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
-      <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
-      <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
-      <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+      <a class="icon" href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
+      <a class="icon" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/github.svg" alt="github"></a>
     </div>
     <div class=footer2>
         &copy; Edijs Rindžs
       </div>
-      
 </div>  
 
 

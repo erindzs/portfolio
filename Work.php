@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="aboutbg">
+<html class="work">
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -23,7 +23,7 @@
   </div>
 </div>
   
-<div class="work">
+<div class="works">
   <div class="leftside2">
     <img src="img/wrg.png" alt="wrg" class="wrg">
     <div class="rightside2">
@@ -36,20 +36,14 @@
 
 <div class="footer">
     <div class="footer1">
-      <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
-      <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
-      <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
-      <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+      <a class="icon" href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
+      <a class="icon" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="#"><img src="img/github.svg" alt="github"></a>
     </div>
     <div class=footer2>
         &copy; Edijs Rindžs
       </div>
-      
 </div>  
-
-
-
-
-
     </body>
 </html>
