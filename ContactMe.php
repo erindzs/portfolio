@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="contactbg">
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -8,11 +8,11 @@
     <title>Portfolio</title>
 </head>
 
-<h1>Portfolio</h1>
+<div class="header">
+  <h1>Portfolio</h1>
+</div>
 
 <body>
-    
-
 <div class="container">
   <div class="topnav"> 
     <a href="/index.php">Home</a>
@@ -41,9 +41,9 @@
       <a href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
       <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
     </div>
-    <div class=footer2>
+  <div class=footer2>
         &copy; Edijs Rindžs
-      </div> 
+  </div> 
 </div>  
     </body>
 </html>

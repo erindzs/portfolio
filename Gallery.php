@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="indexbg">
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -11,7 +11,7 @@
 <h1>Portfolio</h1>
 
 <body>
-    
+     
 
 <div class="container">
   <div class="topnav"> 
