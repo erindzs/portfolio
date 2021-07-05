@@ -15,11 +15,11 @@
 
 <div class="container">
   <div class="topnav"> 
-    <a href="/index.php">HOME</a> 
-    <a href="/AboutMe.php">ABOUT </a>
-    <a href="/Work.php">WORK</a>
-    <a href="/Gallery.php">GALLERY</a>
-    <a href="/ContactMe.php">CONTACT </a>
+    <a href="index.php">HOME</a> 
+    <a href="AboutMe.php">ABOUT </a>
+    <a href="Work.php">WORK</a>
+    <a href="Gallery.php">GALLERY</a>
+    <a href="ContactMe.php">CONTACT </a>
   </div>
 </div>
   
