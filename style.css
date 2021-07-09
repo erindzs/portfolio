@@ -5,29 +5,30 @@
 }
 
 .aboutbg{
-  background: url(img/portfolio2.svg);
+  background: url(img/welcome_main.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
  background-size: cover;
  height: 100%;
+ 
 }
 
 .contactbg{
-  background: url(img/contactme.svg);
+  background: url(img/welcome_main.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
  background-size: cover;
 }
 
 .gallerybg{
-  background: url(img/portfolio2.svg);
+  background: url(img/welcome_main.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
  background-size: cover;
 }
 
 .work{
-  background: url(img/portfolio2.svg);
+  background: url(img/welcome_main.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
  background-size: cover;
@@ -48,7 +49,7 @@ h1{
 }
 .topnav {
     margin: auto;
-    width: 75%;
+    width: 50%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-around
@@ -112,14 +113,14 @@ h1{
   margin-top: 30px;
 }
 
-.wrapper{
+/*.wrapper{
   margin-left:12.5%;
   margin-right:12.5%;
-}
-.works{
+}*/
+/*.works{
   margin-left:12.5%;
   margin-right:12.5%;
-}
+}*/
 .wrg{
   vertical-align: middle;
   width: 100px;
@@ -139,8 +140,7 @@ justify-content: space-evenly;
 .rightside{
   font-family: Arial, Helvetica, sans-serif;
   color: #767575;
-  display: grid;
-  grid-template-columns: auto ;
+  
 }
 
 .rightside{
@@ -172,8 +172,8 @@ body{
 }
 /* FOOTER SECTION */
 .footer{
-  margin-top: auto;
- margin-left: 25px;
+ margin-top: auto;
+ margin-left: 100px;
 }
 
 .footer1{
@@ -258,6 +258,29 @@ body{
   grid-row-end: 9;
 }
 
+.commentsection{
+  text-align: center;
+  margin-top: 30px;
+}
+
+textarea.comment-text{
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  resize: none;
+}
+
+.btn-submit-comment{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
 
 /* CONTACT SECTION */
 
@@ -318,6 +341,7 @@ textarea.contact-form-text{
 
 .contact-form-btn:hover{
   background: #b9babb;
+  
 }
 
 /* MEDIA QUARIES*/
@@ -340,6 +364,7 @@ textarea.contact-form-text{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
   }
   .leftside2{
     display: flex;
@@ -351,7 +376,18 @@ textarea.contact-form-text{
     font-size: 2em;
   }
   
+  .contact-section{
+    margin: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding: 40px 0px;;
+  }
+
+  .footer{
+    margin-left: 0;
+  }
   
+ 
 }
 
 

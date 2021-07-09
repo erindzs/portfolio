@@ -1,3 +1,8 @@
+<?php
+  date_default_timezone_set('Europe/Riga');
+
+?>
+
 <!doctype html>
 <html class="gallerybg">
 <meta charset="utf-8"/>
@@ -15,9 +20,9 @@
 
 <div class="container">
   <div class="topnav"> 
-    <a href="index.php">HOME</a>
-    <a href="AboutMe.php">ABOUT </a>
-    <a href="Work.php">WORK</a>
+    <a href="index.html">HOME</a>
+    <a href="AboutMe.html">ABOUT </a>
+    <a href="Work.html">WORK</a>
     <a href="Gallery.php">GALLERY</a>
     <a href="ContactMe.php">CONTACT</a>
   </div>
@@ -43,8 +48,14 @@
     <img src="img/6.png" class="gallery__img" alt="6">
   </div>
 </div>
-   
-
+  <?php
+   echo "<form class='commentsection' method='POST' action=''>
+  <input type='hidden' name='uid' value='Anonymous'>
+  <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+  <textarea class='comment-text' name='message'></textarea><br>
+  <button class='btn-submit-comment' type='submit' name='submit'>Comment</button>
+</form>";
+?>
 
 <div class="footer">
     <div class="footer1">
