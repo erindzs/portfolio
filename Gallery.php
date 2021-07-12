@@ -1,7 +1,4 @@
-<?php
-  date_default_timezone_set('Europe/Riga');
 
-?>
 
 <!doctype html>
 <html class="gallerybg">
@@ -13,6 +10,8 @@
     <title>Portfolio</title>
 </head>
 
+
+ 
 
 
 <body>
@@ -48,14 +47,58 @@
     <img src="img/6.png" class="gallery__img" alt="6">
   </div>
 </div>
-  <?php
-   echo "<form class='commentsection' method='POST' action=''>
-  <input type='hidden' name='uid' value='Anonymous'>
-  <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-  <textarea class='comment-text' name='message'></textarea><br>
-  <button class='btn-submit-comment' type='submit' name='submit'>Comment</button>
-</form>";
+
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+include 'DB.php';
+
+if(isset($_POST['commentSubmit'])){
+
+  
+  $name = $_POST['name'];
+  $message = $_POST['message'];
+
+    $sql = "INSERT INTO saraksts (name, message)
+    VALUES ('$name','$message')";
+
+    if ($conn->query($sql) === TRUE) {
+      echo "";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+    
+}
 ?>
+
+
+
+   
+<div class="commentsection">
+  <form action="" method="post" class="form">
+  <input type="text" class="name" name="name" placeholder="Name"><br>
+    <textarea name="message" class="comment-text" cols="30" rows="10" placeholder="Message"></textarea><br>
+    <button type="submit" class="btn-submit-comment" name="commentSubmit">Comment</button>
+  </form>
+</div>
+<div class="content">
+  <?php 
+      $sql = "SELECT * FROM saraksts";
+      $result = $conn->query($sql);
+      
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+    
+  ?>
+  <h3><?php echo $row['name']; ?></h3>
+  <p><?php echo $row['message']; ?></p>
+  <?php } } ?>
+</div>
+
 
 <div class="footer">
     <div class="footer1">

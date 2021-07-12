@@ -21,6 +21,13 @@
   </div>
 </div>
 
+
+<?php 
+
+
+
+?>
+
 <div class="contact-section">
   <h1>CONTACT</h1>
   <div class="contacts">
