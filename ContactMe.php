@@ -22,22 +22,44 @@
 </div>
 
 
-<?php 
+<?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
+include 'DB.php';
 
+if(isset($_POST['commentSubmit'])){
+
+  
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+    $sql = "INSERT INTO comments (name, email, message)
+    VALUES ('$name', '$email','$message')";
+
+    if ($conn->query($sql) === TRUE) {
+      echo "";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+    
+}
 ?>
+
 
 <div class="contact-section">
   <h1>CONTACT</h1>
   <div class="contacts">
-  <form class="contact-form" action="ContactMe.php" method="post">
-  <input type="text" class="contact-form-text" placeholder="Your Name">
-  <input type="email" class="contact-form-text" placeholder="Your Email">
-  <textarea class="contact-form-text" placeholder="Your Message"></textarea>
-  <input type="submit" class="contact-form-btn" value="Send">
+    <form action="" method="post" class="form">
+      <input type="text" name="name" class="contact-form-text" placeholder="Your Name">
+      <input type="email" name="email" class="contact-form-text" placeholder="Your Email">  
+      <textarea class="contact-form-text" name="message" placeholder="Your Message"></textarea>
+      <button type="submit" class="contact-form-btn" name="commentSubmit">Send</button>
+    </form>
   </div>
-  </form>
 </div>
 
 <div class="footer">

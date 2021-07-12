@@ -367,7 +367,7 @@ input.name{
   background: rgb(228, 227, 227);
   padding: 20px 40px;
   outline: none;
-  color: #ddd;
+  color: black;
   transition: 0.5s;
 }
 
