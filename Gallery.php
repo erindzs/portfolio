@@ -74,9 +74,6 @@ if(isset($_POST['commentSubmit'])){
 }
 ?>
 
-
-
-   
 <div class="commentsection">
   <form action="" method="post" class="form">
   <input type="text" class="name" name="name" placeholder="Name"><br>
@@ -85,6 +82,7 @@ if(isset($_POST['commentSubmit'])){
   </form>
 </div>
 <div class="content">
+  <div class="contentbox">
   <?php 
       $sql = "SELECT * FROM saraksts";
       $result = $conn->query($sql);
@@ -94,9 +92,11 @@ if(isset($_POST['commentSubmit'])){
         while($row = $result->fetch_assoc()) {
     
   ?>
-  <h3><?php echo $row['name']; ?></h3>
-  <p><?php echo $row['message']; ?></p>
+  <div class="namebox"><h3><?php echo $row['name']; ?></h3>
+  <!--<div class="textbox">--><p><?php echo $row['message']; ?></p>
+  </div>
   <?php } } ?>
+  </div>
 </div>
 
 

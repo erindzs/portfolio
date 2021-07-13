@@ -264,8 +264,8 @@ input.name{
 }
 
 .commentsection .form input{
-  background: #222222;
-  color: white;
+  background: #ddd;
+  color: black;
   font-size: 15px;
   border-radius: 20px;
   padding: 10px;
@@ -275,8 +275,8 @@ input.name{
 }
 
 .commentsection .form textarea{
-  background: #222222;
-  color: white;
+  background: #ddd;
+  color: black;
   font-size: 15px;
   border-radius: 20px;
   padding: 10px;
@@ -297,9 +297,9 @@ input.name{
   margin-top: 10px;
   width: 150px;
   height: 35px;
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(136, 136, 136);
   border: none;
-  color: #fff;
+  color: #000;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   cursor: pointer;
@@ -317,7 +317,6 @@ input.name{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background: hsla(0, 0%, 100%, 0.6);
   width: 800px;
   padding: 10px;
   border-radius: 10px;
@@ -325,10 +324,25 @@ input.name{
 }
 
 .content p{
+  word-break: break-word;
+  white-space: pre-wrap;
+  font-size: 20px;
+  margin-left: 20px;
   text-align: start;
+
 }
 .content h3{
+  font-size: 22px;
+  margin-left: 20px;
   text-align: start;
+
+}
+
+.namebox{
+  border-radius: 20px;
+  background: hsla(0deg, 0%, 71%, 0.5);
+  box-shadow: 14px 7px 6px 0px #747474;
+  height: auto;
 }
 
 
@@ -344,7 +358,7 @@ input.name{
 }
 
 .contact-section{
-  width: 50%;
+  width: 25%;
   margin: auto;
   box-sizing: border-box;
   background-size: cover;
@@ -387,6 +401,7 @@ textarea.contact-form-text{
   padding: 12px 50px;
   border-radius: 20px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .contact-form-btn:hover{
@@ -424,6 +439,7 @@ textarea.contact-form-text{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin:auto;
   }
   
   .indexcontainer h1{
