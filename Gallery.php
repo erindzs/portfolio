@@ -102,15 +102,16 @@ if(isset($_POST['commentSubmit'])){
 
 <div class="footer">
     <div class="footer1">
-      <a class="icon" href="#"><img src="img/facebook.svg" alt="facebook"></a>
-      <a class="icon" href="#"><img src="img/linkedin.svg" alt="linkedin"></a>
-      <a class="icon" href="#"><img src="img/instagram.svg" alt="instagram"></a>
-      <a class="icon" href="#"><img src="img/github.svg" alt="github"></a>
+      <a class="icon" href="https://www.facebook.com/edijsr" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
+      <a class="icon" href="https://www.linkedin.com/in/edijs-rindzs-568a98214/" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a>
+      <a class="icon" href="https://www.instagram.com/edijsrindzs/" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+      <a class="icon" href="https://github.com/erindzs" target="_blank"><img src="img/github.svg" alt="github"></a>
     </div>
     <div class=footer2>
         &copy; Edijs Rindžs
       </div>
 </div>  
+  
 
     </body>
 </html>

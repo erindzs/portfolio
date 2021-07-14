@@ -130,7 +130,7 @@ h1{
 }
 
 .leftside{
-  margin-top: 9%;
+  margin-top: 3%;
   margin-left: 20%;
   margin-right: 20%;
  display: flex;
@@ -149,7 +149,7 @@ padding: 0px 30px;
 }
 
 .leftside2{
-  margin-top: 9%;
+  margin-top: 3%;
   margin-left: 20%;
   margin-right: 20%;
    display: flex;
@@ -164,6 +164,16 @@ padding: 0px 30px;
   padding: 0px 50px;
   }
 
+  .rightside2 a {
+    text-decoration: none;
+    color: #747474;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .rightside2 a:hover{
+    color: black;
+  }
  
 body{
   min-height: 100vh;
