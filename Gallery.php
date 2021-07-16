@@ -104,8 +104,8 @@
     <div class="column">
       <img class="demo cursor" src="img/6.png" style="width:100%%" onclick="currentSlide(4)" alt="6">
     </div>
-  </div>
-</div>
+  </div> 
+</div> 
 
 
 

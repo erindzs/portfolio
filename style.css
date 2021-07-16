@@ -490,14 +490,16 @@ input.name{
 }
 
 .content p{
+  font-family: Arial, Helvetica, sans-serif;
   word-break: break-word;
   white-space: pre-wrap;
   font-size: 20px;
   margin-left: 20px;
   text-align: start;
-
+  
 }
 .content h3{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   margin-left: 20px;
   text-align: start;
@@ -618,11 +620,11 @@ textarea.contact-form-text{
     box-sizing: border-box;
     padding: 40px 0px;;
   }
-  .commentsection .form {
+  .commentsection .form textarea{
     margin: auto;
-    width: auto;
+    width: 200px;
     box-sizing: border-box;
-    padding: 40px 0px;;
+    
   }
   .footer{
     margin-left: 0;
@@ -632,7 +634,15 @@ textarea.contact-form-text{
     display: flex;
     flex-direction: column;
   }
- 
+  .commentsection .form input{
+    width: 200px;
+    box-sizing: border-box;
+    
+  }
+
+ .contentbox {
+  width: 200px;
+ }
 }
 
 
